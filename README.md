@@ -1,0 +1,1 @@
+# finicky-config
