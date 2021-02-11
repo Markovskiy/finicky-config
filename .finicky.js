@@ -27,7 +27,7 @@ module.exports = {
 	],
 	handlers: [
 		{
-			match: /appfollow.atlassian.net/,
+			match: /appfollow\.atlassian\.net/,
 			browser: '/Applications/Jira.app',
 		},
 		{
@@ -35,23 +35,23 @@ module.exports = {
 			browser: '/Applications/Slack.app',
 		},
 		{
-			match: /figma.com\/file/,
+			match: /figma\.com\/file/,
 			browser: '/Applications/Figma.app',
 		},
 		{
-			match: /notion.so/,
+			match: /notion\.so/,
 			browser: '/Applications/Notion.app',
 		},
 		{
-			match: /zoom.us\/j/,
+			match: /zoom\.us\/j/,
 			browser: '/Applications/zoom.us.app',
 		},
 		{
-			match: /t.me/,
+			match: /^https?:\/\/t\.me/,
 			browser: '/Applications/Telegram.app',
 		},
 		{
-			match: /open.spotify.com/,
+			match: /open\.spotify\.com/,
 			browser: '/Applications/Spotify.app',
 		},
 		// {
